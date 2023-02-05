@@ -1,0 +1,272 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "namaste",
+          "what up",
+          "nods"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Namaste, how may i help you"
+        ]
+      },
+      {
+        "tag":"wises1",
+        "patterns":[
+          "Good Morning",
+          "Happy Morning",
+          "A good day"
+        ],
+        "responses":[
+          "Good Morning"
+        ]
+      },
+      {
+        "tag":"wises2",
+        "patterns":[
+          "Good Evening"
+        ],
+        "responses":[
+          "Good Evening"
+        ]
+      },
+      {
+        "tag":"wises3",
+        "patterns":[
+          "Good Afternoon"
+        ],
+        "responses":[
+          "Good Afternoon"
+        ]
+      },
+      {
+        "tag":"wises4",
+        "patterns":[
+          "Good Night"
+        ],
+        "responses":[
+          "Good Night"
+        ]
+      },
+      {
+        "tag":"wises5",
+        "patterns":[
+          "How are you?",
+          "How you are feeling?",
+          "Are you good",
+          "Is everything fine?",
+          "are you fine?",
+          "what happen to you?"
+        ],
+        "responses":[
+          "I m fine. Whats about you?"
+        ]
+      },
+      {
+        "tag":"wises6",
+        "patterns":[
+          "I m also fine?",
+          "fine",
+          "Glad to say that i m also fine"
+        ],
+        "responses":[
+          "Good To hear"
+        ]
+      },
+      {
+        "tag":"wises7",
+        "patterns":[
+          "I love you",
+          "love you",
+          "you also love me?",
+          "do you also love me?"
+        ],
+        "responses":[
+          "I love you too."
+        ]
+      },
+      {
+        "tag":"goodcompliment",
+        "patterns":[
+          "i loved your food",
+          "loved the maggi",
+          "food was awesome",
+          "maggi was awesome?",
+          "tea was wonderful",
+          "coffee was good",
+          "love your service",
+          "i appreciate you"
+        ],
+        "responses":[
+          "Thank you"
+        ]
+      },
+      {
+        "tag":"Payment",
+        "patterns":[
+          "how would you take payment?",
+          "Can you accept payment through google pay?",
+          "Can you accept payment through paytm?",
+          "Can you accept payment through master card?",
+          "Tell me how could i pay you?"
+        ],
+        "responses":[
+          "We accept payment through : \n1.Google Pay\n2.Paytm\n3.Master Card.\n4.Visa card.\n5.Cash"
+        ]
+      },
+      {
+        "tag":"complaint",
+        "patterns":[
+          "Taste of maggi was horrible?",
+          "Maggi was terrible",
+          "Maggi was not good",
+          "I dont like the taste of your food",
+          "How bad are cook is",
+          "Your restaurant is bad",
+          "Your restuarant is not show good",
+          "How terrible this place is.",
+          "What a bad place to eat.",
+          "I will not going to pay for this."
+        ],
+        "responses":[
+          "Sorry for the inconvience. \nWe will surely look after for this."
+        ]
+      },
+      {
+        "tag":"RestuarantName",
+        "patterns":[
+          "What is your name of this restuarant?",
+          "What people call you to this place?",
+          "What people call you to this this restuatant?",
+          "Restaurent Name please?",
+          "What is the name of this heaven?"
+        ],
+        "responses":[
+          "Restaurant Name is BITS MASALA"
+        ]
+      },
+      {
+        "tag":"AboutRestuarant",
+        "patterns":[
+          "Tell me something about this restaurant",
+          "Please tell me the history of this restaurant",
+          "How this restautant was built?",
+          "Restaurant",
+          "I wants you know about this restuarant."
+        ],
+        "responses":[
+          "This Restaurant Name is BITS MASALA.\nIt was founded by karan maurya back\n in 2020.This restaurant is known for\n its taste and spices.\n Many Big personality also visits here.\n\n I m sure that you also love to visit there."
+        ]
+      },
+      {
+        "tag":"AboutChatbot",
+        "patterns":[
+          "Tell me something about yourself",
+          "Please tell me the history of yours",
+          "Who developed you?",
+          "About You",
+          "I wants you know about you in detail.",
+          "Who is your developer",
+          "Tell me somthing about your developer."
+        ],
+        "responses":[
+          "I m a software chatbot.\nI have been developed by Karan Maurya.\nDeep learning ,neural networks,\nmachine learning is used for builting me \n For knowing more about me you may \ncontact to karan maurya (karanmouryadmp@gmail.com)"
+        ]
+      },
+      {
+        "tag":"Age",
+        "patterns":[
+          "What is your age?",
+          "What old are you?",
+          "how old are you?"
+        ],
+        "responses":[
+          "I m 1 year old."
+        ]
+      },
+      {
+        "tag":"ChatbotName",
+        "patterns":[
+          "What is your Name?",
+          "What people call you?",
+          "can i konw your name?"
+        ],
+        "responses":[
+          "I m Merry."
+        ]
+      },
+      {
+        "tag":"Menu",
+        "patterns":[
+          "Please show me the menu",
+          "show me menu",
+          "menu",
+          "What you sell?",
+          "What all things i get here?"
+        ],
+        "responses":[
+          "Here is the Menu. Please select item you want\n\n 1.Maggi (30Rs)\n 2.Tea (40Rs)\n 3.Coffee (50Rs)\n 4.Noodles (50Rs)\n 5.Fried Rice (60Rs)\n 6.Veg thali(100Rs)\n 7.Pizza (100Rs)\n 8.Pasta(120Rs) 9.Aloo Paratha(30Rs per piece)\n 10.Paneer Paratha(50Rs Per piece)"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "This delivery option available?",
+          "How you deliver me",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery option is available.\nWe charge 5Rs per kilometer\nUnder the radius of 10km delivery is free."
+        ]
+      },
+      {
+        "tag": "TimeInDelivery",
+        "patterns": [
+          "How long it will take to deliver me?",
+          "Tell me the Time taken in delivery",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Time according to places: \n1. Under 10km it takes 45minutes.\n 2. Under 20Km it takes 1 hr. and so on."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Please say a joke"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
